@@ -1,0 +1,41 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins",sans-serif;
+}
+.bg-img{
+    background-image:url(./img/banner.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.navbar{
+     padding: 20px;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    transition: 1s;
+}
+.navbar a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+.paragraph p{
+    text-align: justify;
+}
+p::first-letter{
+    color: orange;
+    font-size: 5rem;
+}
+.after-scroll-navbar{
+    background-color:orange;
+}
+
+
